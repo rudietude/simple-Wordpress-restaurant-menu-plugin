@@ -1,0 +1,363 @@
+/*Filename: daily_menu_items.css
+creation Date: 2018/08/02
+Author: Jessica Rudolph
+Author URI:   https://www.linkedin.com/in/rudolphjessica
+*/
+
+
+/****
+Chalkboard styles
+*****/
+
+
+/*font kits*/
+
+@font-face {
+    font-family: alegre_sans_nc;
+    src: url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/fonts/alegre_sans_nc/AlegreSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: arvo;
+    src: url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/fonts/arvo/Arvo-Regular.ttf);
+}
+
+@font-face {
+    font-family: langdon;
+    src: url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/fonts/langdon/Langdon_2.otf);
+}
+
+
+@font-face {
+    font-family: Lavanderia;
+    src: url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/fonts/Lavanderia_Personal_License/Lavanderia_Regular.otf);
+}
+
+@font-face {
+    font-family: Lavanderia_Sturdy;
+    src: url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/fonts/Lavanderia_Personal_License/Lavanderia_Sturdy.otf);
+}
+
+
+@font-face {
+    font-family: Villa_Didot;
+    src: url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/fonts/Villa_Didot/villa_didot.otf);
+}
+
+@font-face {
+    font-family: TEMPSITC;
+    src: url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/fonts/TEMPSITC.TTF.ttf);
+}
+
+
+body .row .chalkboard_menu section .col h1 .restaurantName{
+	text-align:left;
+	    /* -webkit-text-stroke: 1px rgba(157, 49, 36, .3);*/
+  /*  color: #333531;*/
+	/*-webkit-text-stroke: 1px #333531;*/
+    color: #333531;
+    text-shadow: 3px 3px 0 #FFF, /* Simulated effect for Firefox and Opera and nice enhancement for WebKit */ -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+ } 
+body .row .col h3.chalkboard_banner_heading{
+     text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: alegre_sans_nc;
+    background-image: url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/images/headerBanner_flagstyle.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    line-height: 34px;
+    font-size: 34px;
+    letter-spacing: 3px;
+    padding-bottom: 17px;
+    padding-top: 5px;
+	clear:both;
+	display:block;
+	width:185px;
+		
+}
+
+.jr_daily_chalkboard_menu_item_container{padding-right:21px;}
+
+.chalkboard_secondary_menu_title{display:block;
+clear:both;width:100%;
+text-align:left;
+font-family:villa_didot;
+margin-top:23px;
+max-height:76px;
+    padding-right: 10px;
+    font-size: 72px;
+    letter-spacing: 6px;
+text-transform:uppercase;
+
+}
+
+.row .col.section-title h1 span.menu_subheading{font-size: 18px;}
+
+.dessert_background{
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: 96% -20px;
+		background-image:url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/images/dessertCake.png);
+}
+
+.starters_background{
+	 background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: 96% top;
+		background-image:url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/images/veggies.png);
+
+	
+}
+
+.mains_background{
+	 background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: 96% top;
+		background-image:url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/images/dinnerMeat.png);
+
+	
+}
+
+.chalkboard_menu{
+	
+	
+	
+	/*background: #333531; /* fallback */
+	background-image:url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/images/borderdone2.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	    padding: 30px;
+		  max-width:1440px;
+		  margin:auto;
+		  display:block;
+	
+}
+
+body[data-header-color="dark"] header#top nav ul li a{color:white !important;}
+
+.chalkboard_menu section{
+	padding:30px;
+}
+
+
+body .row .chalkboard_menu section .col .jr_menu_item_title{font-family: poor_richardregular;
+color:white;
+	    font-size: 28px;
+		line-height:32px;
+    letter-spacing: 4px;
+    font-weight: normal;
+	text-align:left;
+}
+
+body .row .chalkboard_menu section .col .jr_daily_menu_item_desc{
+	
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+#top_menu_chalkboard_container{
+	border-bottom: 2.5px solid white;
+    margin-bottom: 45px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+.chef_background_image{
+	background-image:url(//elixirbistro.ca/wp-content/plugins/jr_custom_restaurant_menu/images/chef_icon.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	display:block;
+	margin:auto;
+	height: 150px;
+	width:189px;
+	text-align:center;   
+	border-bottom: 0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+
+
+#menu_slogan{text-align:center;
+width:100%;
+margin-top:0px;
+color:white;
+line-height:45px;
+    margin-bottom: 20px;
+
+	    letter-spacing: 1px;}
+
+
+#daily_menu_wrapper, #group_menu_wrapper{width:100%;display:block;clear:both;margin:auto;   letter-spacing: 1px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.4);}
+
+
+.daily_menu_container_inner{padding: 3% 3% 3% 3%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+	background-color: transparent;
+	width:100%;
+	margin:auto;
+	
+}
+
+.main-content ul li.jr_menu_item_title {list-style: none;margin-bottom:0px; }
+
+.daily_menu_container{padding: 4.5% 3% 4.5% 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.15);
+	/*background-color: black;*/
+	/*background-image:url('../images/56443.jpg');*/
+	background-position:center;
+	background-size:100% 100%;
+	width:50%;
+	float:left;
+	
+}
+
+.daily_menu_bottom_container{padding: 3% 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.15);
+	background-color: black;
+	width:100%;
+	float:left;
+	margin-top:35px;
+	
+	/*	background-image:url('../images/OC3WJR0.jpg');*/
+	background-position:center;
+	background-size:100% 100%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.4);}
+
+.daily_menu_category_heading{ 
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+   /* color: white;*/
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-bottom: 10px;
+    margin: 0px 25px;
+    /* box-shadow: 0 8px 6px -6px white; */
+    font-size: 29px;
+	font-weight:bold;
+}
+.jr_menu_item_title{
+	
+ text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 26px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+	font-weight:bold;
+	color: rgb(157, 49, 36);
+    
+
+	
+	}
+	
+.jr_event_sidebar a.fullWidth{    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    display: block;}
+.jr_event_sidebar a.fullWidth:hover{text-decoration:underline;}
+
+	
+.daily_menu_item_price{padding-left:15px;}
+.jr_daily_menu_item_desc{
+    text-align: center;
+    line-height: 1.5;
+    display: block;
+    clear: both;
+    font-size: 21px;
+    font-weight: normal;
+    letter-spacing: .5px;
+    /* color: white; */
+    font-size: 18px;
+    
+   
+}
+
+.jr_daily_menu_item_container_third .jr_daily_menu_item_desc{min-height: 0px;}
+
+.daily_menu_clearfix{width:100%;height:1px;display:block;clear:both;}
+
+
+
+.tribe-bar-disabled .tribe-bar-filters .tribe-bar-date-filter, #tribe-bar-form input#tribe-bar-date[type=text]{width:100%;display:block;clear:both;}
+body[data-form-style="minimal"] #tribe-bar-dates .minimal-form-input{
+		
+		padding-top: 0px;
+    line-height: 15px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.tribe-bar-disabled{width:100%;}
+	.jr_daily_menu_item_container{height:190px;overflow:hidden;}
+.jr_daily_menu_item_desc a{color:rgb(203, 26, 38);}
+.jr_daily_menu_item_desc a:hover{text-decoration:underline;color:rgb(203, 26, 38);}
+
+.jr_daily_menu_item_container_third{width:33.33%;float:left;}
+
+.jr_daily_menu_notes{    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+    padding-top: 10px;
+	
+
+}
+
+
+
+.jr_daily_menu_notes span{color:red;}
+
+.jr_event_sidebar{    background-color: rgba(51,53,48); padding:10px 10px;} 
+
+
+.jr_event_sidebar_container{
+	
+	    padding: 6% 3%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+	margin-top:0px;
+}
+
+.jr_event_sidebar h2, .jr_event_sidebar h3, .jr_event_sidebar a{color:white;font-weight:normal;}
+
+.single-tribe_events h1.tribe-events-event-meta{display:none !important;}
+.tribe-events-single .tribe-events-schedule h2{    display: block;
+    text-align: center;}
+
+.single-tribe_events .tribe-events-single-event-title{font-size:46px;text-align:center;}
+#header-outer[data-lhe="animated_underline"] header#top nav > ul > li[class*="button_solid_color"] > a{margin-right:0px !Important;    font-size: 14px;
+padding-left: 10px !important;
+    padding-right: 10px !important;
+	font-size:14px !important;}
+
+
+
+@media only screen and (max-width: 900px) {
+    .daily_menu_container, .jr_daily_menu_item_container_third {
+        width:100%;
+    }
+
+}
+
+
